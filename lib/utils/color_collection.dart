@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 class AppColor {
-  //Dapp App Colors
+
   // static Color bluecolors = Color(0xff7545F5);
   // static Color graycolors = Color(0xffEDF0F4);
   // static Color grayTextcolors = Color(0xff807F7F);
@@ -8,7 +8,8 @@ class AppColor {
   // static Color fadecolors = Color(0xffA88DF0);
 
 //Wolf app Colors Light MOde
-  static Color bluecolors = Color(0xff2B11A6);
+  static Color blackbackcolor = Color(0xff000000);
+
   static Color graycolors = Color(0xffEDF0F4);
   static Color grayTextcolors = Color(0xff807F7F);
   static Color lightbluecolors = Color(0xffAD94F1);
