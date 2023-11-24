@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:unicitizen/utils/color_collection.dart';
+import 'package:unicitizen/Utility/color_collection.dart';
 
 class AppThemedata {
   static ThemeData light = ThemeData(
@@ -49,6 +49,12 @@ class AppThemedata {
           fontFamily: "Poppins"),
     ),
   );
+
+
+
+
+
+  
   static ThemeData dark = ThemeData(
     scaffoldBackgroundColor: Colors.black87,
     fontFamily: "Poppins",

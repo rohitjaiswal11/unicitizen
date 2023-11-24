@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:unicitizen/Screens/SelectCrypto/selectcrypto.dart';
-import 'package:unicitizen/Screens/SelectFiat/selectfiat.dart';
-import 'package:unicitizen/Screens/Send-Busd/sen-busd.dart';
-import 'package:unicitizen/Screens/Send/coin_modal.dart';
-import 'package:unicitizen/utils/custm_container.dart';
+import 'package:unicitizen/UI/SelectCrypto/selectcrypto.dart';
+import 'package:unicitizen/UI/SelectFiat/selectfiat.dart';
+import 'package:unicitizen/UI/Send-Busd/sen-busd.dart';
+import 'package:unicitizen/UI/Send/coin_modal.dart';
+import 'package:unicitizen/Utility/custm_container.dart';
 
-import '../Binance_tranx/binance_tranx.dart';
+import '../../Ui/Binance_tranx/binance_tranx.dart';
+
 
 class SelectFiat extends StatelessWidget {
   const SelectFiat({super.key});

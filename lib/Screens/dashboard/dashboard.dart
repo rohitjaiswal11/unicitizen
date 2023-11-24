@@ -2,13 +2,15 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
-import 'package:unicitizen/Screens/Send/send.dart';
-import 'package:unicitizen/Screens/dashboard/menu1.dart';
-import 'package:unicitizen/Screens/dashboard/menu2.dart';
-import 'package:unicitizen/Screens/dashboard/modal.dart';
-import 'package:unicitizen/utils/color_collection.dart';
+import 'package:unicitizen/UI/Send/send.dart';
+import 'package:unicitizen/UI/dashboard/menu1.dart';
+import 'package:unicitizen/UI/dashboard/menu2.dart';
+import 'package:unicitizen/UI/dashboard/modal.dart';
+import 'package:unicitizen/Utility/color_collection.dart';
 
-import 'assetcarditem.dart';
+import '../../Ui/dashboard/assetcarditem.dart';
+
+
 
 class DashBoard extends StatelessWidget {
   const DashBoard({super.key});

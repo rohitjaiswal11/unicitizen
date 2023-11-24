@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:unicitizen/Controller/theme.dart';
-import 'package:unicitizen/Screens/dashboard/dashboard.dart';
+import 'package:unicitizen/Screens/Register_1.dart';
+import 'package:unicitizen/UI/dashboard/dashboard.dart';
 import 'package:unicitizen/theme/themedata.dart';
-import 'package:unicitizen/utils/bottom_navigation.dart';
-import 'package:unicitizen/utils/route.dart';
+import 'package:unicitizen/Utility/bottom_navigation.dart';
+import 'package:unicitizen/Utility/route.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +28,8 @@ class MyApp extends StatelessWidget {
         // getPages: AppRoute.pages,
         // initialRoute: AppRoute.dashboard,
 
-        home:   BottomNavBar(),
+        home: Register()
+        //  BottomNavBar(),
       );
     
     //);
