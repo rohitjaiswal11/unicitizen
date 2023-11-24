@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 
-import '../dashboard.dart';
+import '../Screens/dashboard/dashboard.dart';
 
 class AppRoute{
 static const String splashScreen = '/Splash';

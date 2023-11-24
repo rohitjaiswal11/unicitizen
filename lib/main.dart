@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:unicitizen/Controller/theme.dart';
-import 'package:unicitizen/dashboard.dart';
+import 'package:unicitizen/Screens/dashboard/dashboard.dart';
 import 'package:unicitizen/theme/themedata.dart';
+import 'package:unicitizen/utils/bottom_navigation.dart';
 import 'package:unicitizen/utils/route.dart';
 
 void main() {
@@ -15,17 +16,20 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return GetBuilder<themedata>(builder: (child) {
-      child.getshared();
+    // return GetBuilder<themedata>(builder: (child) {
+     // child.getshared();
       return GetMaterialApp(
         debugShowCheckedModeBanner: false,
-        themeMode: child.gettheme,
+       // themeMode: child.gettheme,
         theme: AppThemedata.light,
         darkTheme: AppThemedata.dark,
         defaultTransition: Transition.topLevel,
-        getPages: AppRoute.pages,
-        initialRoute: AppRoute.dashboard,
+        // getPages: AppRoute.pages,
+        // initialRoute: AppRoute.dashboard,
+
+        home:   BottomNavBar(),
       );
-    });
+    
+    //);
   }
 }
