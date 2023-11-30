@@ -44,7 +44,9 @@ class _SecretPhase_MatchState extends State<SecretPhase_Match> {
                 setState(() {});
                 Timer(Duration(seconds: 2), () {
                   if (selectPhase.length == 12) {
-                    if (listEquals(
+                    if (
+                      
+                      listEquals(
                         Get.find<walletController>().seedphases, selectPhase)) {
                       String phs = selectPhase.join(" ");
                       Get.find<walletController>()
@@ -59,13 +61,20 @@ class _SecretPhase_MatchState extends State<SecretPhase_Match> {
                               message: "Error in address", isError: false);
                         }
                       });
-                    } else {
+                    }
+                    
+                    
+                     else {
                       showCustomSnackBar(
                           message: "Phrase not matched....", isError: true);
                     }
                     _loading = false;
                     setState(() {});
-                  } else {
+                  }
+                  
+                  
+                  
+                   else {
                     _loading = false;
                     setState(() {});
                     showCustomSnackBar(
